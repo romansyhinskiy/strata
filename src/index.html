@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+          integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="banner">
+    <div class="container wrapper text-center">
+        <h2>Use our Free Levy Comparions Tool</h2>
+        <p>See how your strata levies compare <br> against other similar schemes</p>
+    </div>
+</div>
+<!--calculations-->
+<form action="">
+    <div class="calculation-box">
+        <div class="container wrapper">
+            <div class="d-block d-lg-flex justify-content-between">
+                <div class="values w-48">
+                    <h3 class="title mb-0">Enter your details:</h3>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="box custom-box d-flex align-items-center">
+                            <p class="mb-0 mr-2">Current strata admin fees per quarter:</p>
+                            <input type="text" class="box" id="currentSum" placeholder="$2,550">
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <input type="text" class="custom-select" placeholder="Postcode/Suburb">
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect02">
+                                <option selected>Approximate value of property</option>
+                                <option value="1"><$500,000</option>
+                                <option value="2">Between $500,000 and $600,000</option>
+                                <option value="3">Between $600,000 and $700,000</option>
+                                <option value="3">Between $700,000 and $800,000</option>
+                                <option value="3">Between $800,000 and $1,000,000</option>
+                                <option value="3">Between $1,000,000 and $1,200,000</option>
+                                <option value="3">Between $1,200,000 and $1,500,000</option>
+                                <option value="3">Between $1,500,000 and $2,000,000</option>
+                                <option value="3">Over $2,000,000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect03">
+                                <option selected>Type of day-to-day supervision</option>
+                                <option value="1">No-one particularly</option>
+                                <option value="2">A lot owner</option>
+                                <option value="3">The executive committee</option>
+                                <option value="3">The strata manager</option>
+                                <option value="3">Part time facilities manager or building manager</option>
+                                <option value="3">Full time facilities manager or building manager</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect04">
+                                <option selected>Underground parking</option>
+                                <option value="1">No</option>
+                                <option value="2">Yes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect05">
+                                <option selected>Number of lifts</option>
+                                <option value="1">0</option>
+                                <option value="2">1</option>
+                                <option value="3">2</option>
+                                <option value="3">3</option>
+                                <option value="3">4</option>
+                                <option value="3">5</option>
+                                <option value="3">>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect06">
+                                <option selected>Residential or commercial</option>
+                                <option value="1">Residential</option>
+                                <option value="2">Residential & Commercial</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect07">
+                                <option selected>Number of units in the building</option>
+                                <option value="1">2-6</option>
+                                <option value="2">7-12</option>
+                                <option value="3">13-20</option>
+                                <option value="3">21-40</option>
+                                <option value="3">41-60</option>
+                                <option value="3">61-80</option>
+                                <option value="3">81-100</option>
+                                <option value="3">101-150</option>
+                                <option value="3">151-200</option>
+                                <option value="3">201-300</option>
+                                <option value="3">301-400</option>
+                                <option value="3">>400</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-15 align-items-center">
+                        <div><i class="tip mr-3"></i></div>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect08">
+                                <option selected>Age of building</option>
+                                <option value="1">less than 1 year old</option>
+                                <option value="2">less than 3 years old</option>
+                                <option value="3">less than 5 years old</option>
+                                <option value="3">less than 7 years old</option>
+                                <option value="3">less than 10 years old</option>
+                                <option value="3">less than 15 years old</option>
+                                <option value="3">less than 20 years old</option>
+                                <option value="3">More than 20 years old</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger" id="calculate">View your comparison</button>
+                    <p class="note pb-3">Note: the information requested above is correlated with differences in strata admin fees </p>
+                </div>
+                <div class="result w-48">
+                    <h3 class="title">Check out your results:</h3>
+                    <div class="box result-box">
+                        <div class="average-box box position-relative">
+                            <i class="q-icon"></i>
+                            <p class="mb-0 text calcSum">2700</p>
+                            <!--<p class="mb-0 text calcSum">View the average price paid for strata schemes like yours</p>-->
+
+                            <div class="col-3">
+                                <div class="snippet" data-title=".dot-flashing">
+                                    <div class="stage">
+                                        <div class="dot-flashing"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <i class="tip"></i>
+                        </div>
+                        <div class="box healthcheck position-relative">
+                            <div class="animation">
+                                <img class="abs-img" src="images/an1.png" alt="">
+                                <img class="abs-img-small" src="images/an2.png" alt="">
+                            </div>
+                            <h3 class="mb-0">Healthcheck</h3>
+                            <p class="mb-0 mt-1 color-text" id="resultText">Wainting for details to be entered</p>
+                            <div class="text-center mt-4 d-flex justify-content-center">
+                                <div class="d-flex align-items-center mr-3"><i class="warning-dollar"></i><span class="default-text color-text dollar-text ml-2"></span></div>
+                                <div class="d-flex align-items-center"><i class="warning-percent"></i><span class="default-text ml-2 color-text percent-text"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="container wrapper text-block">
+    <h3 class="title title-top">Explanation of the difference:</h3>
+    <div class="d-block d-lg-flex justify-content-between mt-4">
+        <div class="w47 main-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, dignissim vitae massa non,
+            venenatis malesuada tellus. Donec a scelerisque nibh. Maecenas
+            tincidunt convallis diam, sed euismod risus interdum non. Donec non eros elit. Etiam a nisl nec sapien
+            laoreet blandit. Aenean a sem vitae nisl lacinia sodales.
+            Morbi efficitur odio eu nunc laoreet, quis mollis tortor tristique. Donec at nisi quis velit rutrum
+            accumsan. Vivamus gravida dui ornare nibh tincidunt, sit amet
+            accumsan augue ultricies. Fusce turpis augue, euismod ut odio sed, convallis feugiat lorem.
+            <br>
+            <br>
+            Proin vestibulum, nisl dignissim gravida tristique, mauris mauris lobortis urna, ac tincidunt odio nisl nec
+            velit. Vivamus fermentum, tortor et faucibus laoreet,
+            mauris mi auctor dolor, id sodales augue nibh eget ipsum. Curabitur sed sagittis risus, id placerat quam.
+            Maecenas interdum ante vel urna rhoncus efficitur. Ut
+            erat massa, fringilla tincidunt mollis ut, elementum id mauris. Phasellus gravida elit sagittis ex
+            efficitur, ac tincidunt metus tempus. Proin gravida hendrerit
+            nulla sed egestas. Suspendisse libero mauris, vehicula commodo rutrum id, sodales vel dui. Pellentesque sit
+            amet bibendum arcu. Duis eros nulla, suscipit et pretium
+            rhoncus, posuere ac risus. Mauris rutrum elit ut vulputate lobortis.
+        </div>
+        <div class="w47 main-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna ex, dignissim vitae massa non,
+            venenatis malesuada tellus. Donec a scelerisque nibh. Maecenas
+            tincidunt convallis diam, sed euismod risus interdum non. Donec non eros elit. Etiam a nisl nec sapien
+            laoreet blandit. Aenean a sem vitae nisl lacinia sodales. Morbi
+            efficitur odio eu nunc laoreet, quis mollis tortor tristique. Donec at nisi quis velit rutrum accumsan.
+            Vivamus gravida dui ornare nibh tincidunt, sit amet accumsan augue
+            ultricies. Fusce turpis augue, euismod ut odio sed, convallis feugiat lorem.
+            <br>
+            <br>
+            Proin vestibulum, nisl dignissim gravida tristique, mauris mauris lobortis urna, ac tincidunt odio nisl nec
+            velit. Vivamus fermentum, tortor et faucibus laoreet,
+            mauris mi auctor dolor, id sodales augue nibh eget ipsum. Curabitur sed sagittis risus, id placerat quam.
+            Maecenas interdum ante vel urna rhoncus efficitur. Ut erat
+            massa, fringilla tincidunt mollis ut, elementum id mauris. Phasellus gravida elit sagittis ex efficitur, ac
+            tincidunt metus tempus. Proin gravida hendrerit nulla sed
+            egestas. Suspendisse libero mauris, vehicula commodo rutrum id, sodales vel dui. Pellentesque sit amet
+            bibendum arcu. Duis eros nulla, suscipit et pretium rhoncus, posuere
+            ac risus. Mauris rutrum elit ut vulputate lobortis.
+        </div>
+    </div>
+</div>
+
+<script src="js/libs.min.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
+</html>

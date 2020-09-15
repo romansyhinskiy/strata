@@ -1,0 +1,53 @@
+@media screen and (max-width: 1100px) {
+  .result-box{
+    width: auto;
+  }
+}
+@media screen and (max-width: 991.99px){
+  .calculation-box .w-48{
+    width: 100%;
+  }
+  .result-box{
+    position: relative;
+    bottom: 35px;
+  }
+  .text-block .w47{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575px){
+  .banner h2 {
+    padding-top: 70px;
+    font: 29px Roboto,sans-serif;
+    line-height: 30px;
+  }
+  .banner p {
+    font: 18px Roboto,sans-serif;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .banner {
+    background-position: 50%;
+  }
+  .average-box {
+    width: 90%;
+    padding: 39px 30px;
+  }
+  .healthcheck {
+    width: 90%;
+  }
+  .calculation-box .title{
+    font: 19px Roboto,sans-serif;
+  }
+  .values .title {
+    padding: 26px 0 15px 42px;
+  }
+  .values button {
+    width: 86%;
+  }
+  .custom-box p, .custom-select {
+    font: 12px Roboto,sans-serif;
+    line-height: 16px;
+  }
+}
