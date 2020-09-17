@@ -354,19 +354,12 @@ $red:  #EC2819;
   top: 0;
   bottom: 0;
   margin: auto;
+}
+.abs-img-animation{
   animation: example infinite;
   animation-duration: 3s;
 }
-.abs-img-small{
-  position: absolute;
-  left: -2px;
-  right: 0;
-  top: 5px;
-  bottom: 0;
-  margin: auto;
-  animation: example1 infinite;
-  animation-duration: 3s;
-}
+
 @keyframes example {
   from {
     transform: rotate(0deg);
@@ -380,7 +373,7 @@ $red:  #EC2819;
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(20deg);
   }
 }
 .default-text{
